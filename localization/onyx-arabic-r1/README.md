@@ -1,13 +1,23 @@
-# ONYX Arabic Localization — R1 (Editorial Candidate)
+# ONYX Arabic Localization — R1
 
-هذه حزمة مراجعة لتحسين تعريب Frappe وERPNext وHRMS. ليست معتمدة للاستخدام الإنتاجي، ولم يجر اختبار التحميل الفعلي في Frappe.
+**Status:** Editorial review candidate — not production-approved.
 
-## الملفات
-- `Frappe_Arabic_Corrected.csv`
-- `ERPNext_Arabic_Corrected.csv`
-- `HRMS_Arabic_Corrected.csv`
-- `Translation_QA_Report_AR.md`
+This directory contains the complete original R1 ZIP package and the key corrected Arabic translation files for Frappe, ERPNext and HRMS. The terminology glossary and translation-memory CSVs are included.
 
-**مهم:** ملف CSV محافظ على مفاتيح الترجمة، لكن لا يُنشر قبل اختبار الآلية الفعلية للتجاوز داخل Frappe v16، وتدقيق المصطلحات الحساسة.
+## Download
 
-الحزمة الأصلية R1 تشمل أيضًا قاموس المصطلحات وسجلات التغيير والمراجعة؛ سيتم التعامل معها كملفات مستقلة في هذا المجلد عند توفر مسار رفع مطابق للأصل.
+- [Complete R1 ZIP package](./ONYX_Arabic_Translation_Review_Package_R1.zip)
+- [Frappe CSV](./Frappe_Arabic_Corrected.csv)
+- [ERPNext CSV](./ERPNext_Arabic_Corrected.csv)
+- [HRMS CSV](./HRMS_Arabic_Corrected.csv)
+- [Terminology glossary](./Terminology_Glossary_AR.csv)
+- [Curated translation memory](./Curated_Translation_Memory_AR.csv)
+- [Arabic QA report](./Translation_QA_Report_AR.md)
+
+## العربية
+
+هذه **نسخة مرشحة للمراجعة والاعتماد**، وليست إصدارًا إنتاجيًا. تتضمن حزمة ZIP سجل التعديلات، وقائمة الترجمات التي تحتاج مراجعة، وملخص التحقق، وأدوات إعادة الإنتاج.
+
+**قبل النشر:** يجب اعتماد المصطلحات المحاسبية والتشغيلية، وإكمال مراجعة العبارات الناقصة، والتحقق من أسبقية الترجمات في Frappe 16، واختبار RTL والتقارير والطباعة على بيئة اختبار.
+
+تستهدف الحزمة تحسين الترجمات؛ ولا تغيّر الملفات الأصلية داخل تطبيقات Frappe وERPNext وHRMS.
